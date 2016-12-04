@@ -1,3 +1,4 @@
+require('dotenv').config()
 const app = require('express')(),
       mongoose = require('mongoose'),
       {connection, Schema} = mongoose,
@@ -6,8 +7,6 @@ const app = require('express')(),
       passport = require('passport'),
       session = require('express-session'),
       {mongoURI, port} = require('./config')
-
-
 //db config
 mongoose.Promise=global.Promise
 mongoose.connect(mongoURI)
