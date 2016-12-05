@@ -63,11 +63,11 @@ GOOGLE_SECRET=<google secret>
 
 
 #### **PUT** `/api/user/{id}`
-* Updates a user. Requires a valid JWT from the respective user or one with an `admin` scope.
+* Updates a user. Requires a valid JWT from that respective user or one with an `admin` scope.
 
 
 #### **DELETE** `/api/user/{id}`
-* Deletes a user with a specific `id`. Requires a valid JWT from the respective user or one with an `admin` scope.
+* Deletes a user with a specific `id`. Requires a valid JWT from that respective user or one with an `admin` scope.
 
 
 ## Social Authentication Routes
