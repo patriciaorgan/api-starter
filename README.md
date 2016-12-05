@@ -60,10 +60,8 @@ GOOGLE_SECRET=<google secret>
 #### **GET** `/api/users/{id}`
 * Returns a specific `user` in the database. Requires a valid JWT.
 
-
 #### **PUT** `/api/user/{id}`
 * Updates a user. Requires a valid JWT from that respective user or one with an `admin` scope.
-
 
 #### **DELETE** `/api/user/{id}`
 * Deletes a user with a specific `id`. Requires a valid JWT from that respective user or one with an `admin` scope.
@@ -79,7 +77,7 @@ The following routes return a user object with all the basic social media inform
 
 
 ## Todo
-- [x] set expiration date
+- [x] ~~set expiration date~~
 - [ ] testing
 - [ ] containerization
 - [ ] AWS deployment
