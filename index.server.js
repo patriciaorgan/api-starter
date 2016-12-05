@@ -1,7 +1,7 @@
 require('dotenv').config()
 const app = require('express')(),
       mongoose = require('mongoose'),
-      {connection, Schema} = mongoose,
+      {connection} = mongoose,
       {urlencoded,json} = require('body-parser'),
       services = require('./services'),
       passport = require('passport'),

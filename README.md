@@ -79,7 +79,7 @@ The following routes return a user object with all the basic social media inform
 
 
 ## Todo
-- [ ] set expiration date
+- [x] set expiration date
 - [ ] testing
 - [ ] containerization
 - [ ] AWS deployment

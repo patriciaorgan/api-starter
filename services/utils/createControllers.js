@@ -1,6 +1,6 @@
 const  {sign} = require('jsonwebtoken'),
-       {secretOrKey} = require('../../config').jwt
-       signToken = payload => sign( payload, secretOrKey)
+       {secretOrKey, expiresIn} = require('../../config').jwt
+       signToken = payload => sign( payload, secretOrKey, expiresIn)
 
 module.exports = Model =>({
 

@@ -37,6 +37,7 @@ module.exports = {
       jwtFromRequest: ExtractJwt.fromHeader("authorization"),
       secretOrKey: SECRET || 'secret'
     },
+    expiresIn: '10 days',
     port: PORT || 3090,
     mongoURI:  MONGO_USER && MONGO_PASSWORD  && MONGO_DOMAIN &&  MONGO_DB ?
                     `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_DOMAIN}/${MONGO_DB}`
