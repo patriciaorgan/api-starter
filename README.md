@@ -21,7 +21,7 @@ The app will be served at `localhost:3090`.
 
 ## Local Setup
 
-To setup the API locally, you will need to run MongoDB or have an MLab instance. You will also need to get the correct ids/keys/secret from the social auth apis. Create a `.env` file and populate it with the following values:
+To setup the API locally, you will need to run MongoDB or have an MLab instance. You will also need to get the correct id/key/secret from the social media API. Create a `.env` file and populate it with the following values:
 
 ```bash
 #mongoDB
@@ -83,4 +83,4 @@ The following routes return a user object with all the basic social media inform
 - [ ] set expiration date
 - [ ] testing
 - [ ] containerization
-- [ ] aws deployment
+- [ ] AWS deployment
