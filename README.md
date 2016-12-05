@@ -6,7 +6,7 @@
 />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 <br/>
-This sample project demonstrates how to set up a user authentication API with Express using JSON Web Tokens. There are several endpoints exposed in the sample, including user login and signup, along with an example of a protected admin resource.
+This sample project demonstrates how to set up a user authentication API with Express using JSON Web Tokens. There are several endpoints exposed in the sample, including user and social media login, along with an example of a protected admin resource.
 
 
 ## Installation and Running the App
