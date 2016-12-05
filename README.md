@@ -25,7 +25,6 @@ To setup the API locally, you will need to run MongoDB or have an MLab instance.
 
 ```bash
 #mongoDB
-SECRET_KEY=<secret_key>
 MONGO_USER=<mlab_user>
 MONGO_PASSWORD=<mlab_password>
 MONGO_DOMAIN=<domain>
