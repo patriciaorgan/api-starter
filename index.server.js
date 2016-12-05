@@ -10,9 +10,9 @@ const app = require('express')(),
 
 //db config
 mongoose.Promise=global.Promise
-mongoose.connect(mongoURI)
+mongoose.connect(mongoURI())
 connection.on('error', console.error.bind(console, 'connection error:'));
-connection.once('open', ()=> console.log('connected to DB!'))
+connection.once('open', ()=> console.log(`connected to ${mongoURI()}!`))
 
 
 

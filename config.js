@@ -38,6 +38,8 @@ module.exports = {
       secretOrKey: SECRET || 'secret'
     },
     port: PORT || 3090,
-    mongoURI: `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_DOMAIN}/${MONGO_DB}` || 'mongodb://localhost/api-starter',
+    mongoURI: () =>  MONGO_USER && MONGO_PASSWORD  && MONGO_DOMAIN &&  MONGO_DB ?
+                    `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_DOMAIN}/${MONGO_DB}`
+                    : 'mongodb://localhost/api-starter',
 
 }
